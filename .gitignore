@@ -1,0 +1,130 @@
+# ============================================================
+# Flutter / Dart
+# ============================================================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# ============================================================
+# Dart/Pub Generated Files
+# ============================================================
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# ============================================================
+# Firebase & Sensitive Configuration
+# ============================================================
+# NEVER commit real Firebase service account keys or google-services files
+google-services.json
+GoogleService-Info.plist
+firebase_service_account.json
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+.env
+.env.*
+secrets/
+
+# ============================================================
+# Hive Local Database Files (user data — never commit)
+# ============================================================
+*.hive
+*.lock.hive
+
+# ============================================================
+# Android
+# ============================================================
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ============================================================
+# iOS
+# ============================================================
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+.swiftpm/
+
+# ============================================================
+# macOS
+# ============================================================
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral/
+
+# ============================================================
+# Linux
+# ============================================================
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+**/linux/flutter/generated_plugins.cmake
+
+# ============================================================
+# Windows
+# ============================================================
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+**/windows/flutter/generated_plugins.cmake
+
+# ============================================================
+# IntelliJ / Android Studio / VS Code
+# ============================================================
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/settings.json
+.vscode/launch.json
+
+# ============================================================
+# Symbolication / Obfuscation
+# ============================================================
+app.*.symbols
+app.*.map.json
+
+# ============================================================
+# Miscellaneous
+# ============================================================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+Thumbs.db
