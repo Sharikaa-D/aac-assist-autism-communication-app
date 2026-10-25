@@ -197,13 +197,6 @@ These improvements are planned possibilities and should not be considered implem
 - Additional accessibility options
 - Improved testing and deployment workflows
 
-## Contribution
-
-Contributions, suggestions, and feedback are welcome. Please describe proposed changes clearly and test them before submitting them.
-
-## License
-
-This project is distributed under the MIT License if the repository includes an MIT LICENSE file.
 
 ## Disclaimer
 
